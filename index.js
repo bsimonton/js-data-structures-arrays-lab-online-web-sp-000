@@ -24,4 +24,8 @@ function destructivelyRemoveLastDriver(){
 }
 
 
-function 
+function destructivelyRemoveFirstDriver(){
+  
+  
+  drivers.
+}
