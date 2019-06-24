@@ -18,4 +18,7 @@ function destructivelyPrependDriver(name){
 }
 
 
-function 
+function destructivelyRemoveLastDriver(){
+  drivers.pop(name);
+  
+}
