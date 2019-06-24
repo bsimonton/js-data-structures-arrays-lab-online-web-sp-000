@@ -33,8 +33,7 @@ function destructivelyRemoveFirstDriver(){
 
 function appendDriver(name){
   
-  const newdrivers = [name, ...drivers]
-  return newdrivers;
+ 
 }
 
 
@@ -45,7 +44,7 @@ function prependDriver(name){
 
  
 function removeLastDriver(){
-  let newdrivers = drivers.slice(-1)
+  let newdrivers = drivers.slice()
   return newdrivers; 
 }
 
