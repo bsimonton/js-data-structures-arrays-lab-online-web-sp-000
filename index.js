@@ -44,7 +44,7 @@ function prependDriver(name){
 
  
 function removeLastDriver(){
-  let newdrivers = drivers.slice()
+  let newdrivers = drivers.slice(0, drivers.length - 1)
   return newdrivers; 
 }
 
